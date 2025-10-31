@@ -1,7 +1,7 @@
 <fieldset>
   <legend>This is fieldset legend</legend>
 
-  <form (ngSubmit)="onSubmit(inputTitle.value, inputText.value, form)" #form>
+  <form (ngSubmit)="onSubmit(inputTitle.value, inputText.value)" #form>
     <app-control label="Title" for="title">
       <input type="" name="title" id="title" value="" #inputTitle />
     </app-control>
